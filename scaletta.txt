@@ -9,8 +9,8 @@ Capitolo 1 Software container.
 Capitolo 2 Docker.
 	 2.1 Cos’è Docker
 	 2.2 Diffusione dei container con Docker
-	 2.3 Casi d'uso
+	 2.3 Esempi apllicativi
 
-
+Capitolo 3 
 
 Conclusioni
