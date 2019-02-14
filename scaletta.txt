@@ -1,0 +1,16 @@
+Introduzione
+
+Capitolo 1 Software container.
+	 1.1 Cosa sono i software container
+	 1.2 Storia dei softwarecontainer
+	 1.3 Perchè utilizzare softwarecontainer
+	 1.4 Opzioni di software container
+
+Capitolo 2 Docker.
+	 2.1 Cos’è Docker
+	 2.2 Diffusione dei container con Docker
+	 2.3 Casi d'uso
+
+
+
+Conclusioni
