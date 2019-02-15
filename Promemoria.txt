@@ -2,3 +2,4 @@ IaaS
 PaaS
 CloudComputing
 GoogleCloud
+LCX

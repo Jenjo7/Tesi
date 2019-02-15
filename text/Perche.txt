@@ -7,14 +7,22 @@ I motivi che portano a preferire lo sviluppo di un sistema software con containe
 -Sono portabili anche su sistemi differenti
 -Controllo di versione
 -le risorse dell'host sono condivise
+-Granularità e flessibilità
 -Sviluppo semplificato?
 -Completamento dell’implementazione del concetto di PaaS?
 
 Ora si analizzeranno i vari punti sopracitai
+
 Leggerezza, un container può essere eseguito su una vasta gamma di dispositivi, anche se non dotati di grosse risorse (come ad es RaspberryPi), in quanto nel container è contenuto solo lo stretto necessario a far funzionare l'applicazione in esso contenuta, cosa che non avviene con le macchine virtuali, le quali necessitano di un sistema operativo ospite, e quindi di risorse hardware da virtualizzare. 
 
 Isolamento: ogni applicazione/servizio viene eseguita in un propria "sandbox", in maniera indipendente da altri container/applicazioni
 
 Rapido avvio: L'assenza di una macchina virtuale, implica già l'assenza del tempo di avvio dell' OS ospite della macchina stessa, mentre l'avvio di un container può essere effettuato mediante una riga di comando ed è praticamente istantaneo.
 
-Portabilità:
+Portabilità: Proprio come i container dei camion, i compute container godono di un approccio standardizzato, ciò significa che possono essere distribuiti su qualunque risorsa di calcolo indipendentemente da configurazioni, SO o hardware.
+
+Controllo di versione: La tecnologia dei container permette di gestire le versioni del codice dell’applicazione e delle sue dipendenze. E’ possibile tenere traccia delle versioni di un container, analizzare le differenze tra di esse ed eventualmente tornare a versioni precedenti, similmente a come accade per i DVCS.
+
+Condivisione delle risorse: ogni container vede le risorse come se fossero dedicate, anche se in realtà sono condivise con gli altri processi in esecuzione. In questa maniera le risorse verranno utilizzate solo quando vi è un effettivo carico di lavoro da svolgere, rilasciandole quando non sono utilizzate, permettendo perciò ad altri container di portervi accedere e utilizzarle; ciò tuttavia non viola l'isolamento del contesto di esecuzione del container.
+
+Granularità e flessibilità: i container permettono di organizzare le risorse computazionali in microservizi migliorando le prestazioni del sistema, che potrà adattarsi in modo estremamente flessibile alle esigenze dell'azienda.
