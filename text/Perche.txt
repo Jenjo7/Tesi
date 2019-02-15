@@ -26,3 +26,5 @@ Controllo di versione: La tecnologia dei container permette di gestire le versio
 Condivisione delle risorse: ogni container vede le risorse come se fossero dedicate, anche se in realtà sono condivise con gli altri processi in esecuzione. In questa maniera le risorse verranno utilizzate solo quando vi è un effettivo carico di lavoro da svolgere, rilasciandole quando non sono utilizzate, permettendo perciò ad altri container di portervi accedere e utilizzarle; ciò tuttavia non viola l'isolamento del contesto di esecuzione del container.
 
 Granularità e flessibilità: i container permettono di organizzare le risorse computazionali in microservizi migliorando le prestazioni del sistema, che potrà adattarsi in modo estremamente flessibile alle esigenze dell'azienda.
+
+

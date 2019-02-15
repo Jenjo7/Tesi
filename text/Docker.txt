@@ -1,1 +1,3 @@
 Docker
+
+Docker è una delle piattaforme software container più utlizzate e diffuse nell'ambito della virtualizzazione a livello OS. Il progetto Docker, nato nella azienda di dotCloud, fu pubblicato come progetto open source a marzo 2013 
