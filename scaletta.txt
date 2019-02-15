@@ -11,6 +11,6 @@ Capitolo 2 Docker.
 	 2.2 Diffusione dei container con Docker
 	 2.3 Esempi apllicativi
 
-Capitolo 3 
+Capitolo 3
 
 Conclusioni
