@@ -1,1 +1,11 @@
 VantaggiContainer
+
+Velocizzano lo sviluppo applicativo grazie alla possibilità di essere riusati non solo nell’ambito del proprio team ma con la community internazionale
+	
+Abilitano allo sviluppo agile grazie alla suddivisione dei confini tra container
+
+Migliorano le applicazioni grazie alla diminuzione del cosiddetto “spaghetti code” e delle dipendenze applicative
+
+Abilitano la scalabilità delle applicazioni in maniera semplice
+
+
