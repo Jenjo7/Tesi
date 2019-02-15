@@ -1,3 +1,6 @@
 SoftwareContainer
 
-I Container sono una tecnica di virtualizzazione che permettono di eseguire app e servizi in ambienti isolati. Si differenziano dalle macchine virtuali soprattutto per la loro "leggerezza", infatti una macchina virtuale necessita di un sistema operativo ospite che viene eseguito sul sistema operativo host per il suo funzionamento, mentre un container sfrutta il kernel e le librerie del sistema operativo sottostante. La tecnologia che maggiormente utilizzata in ambito di container è Docker.
+Un Container è una tecnica di virtualizzazione a livello di sistema operativo, che permette di eseguire app e servizi in un ambiente isolato. I containers si differenziano dalle macchine virtuali soprattutto per la loro "leggerezza", infatti una macchina virtuale, virtualizza fisicamente un intero sistema (CPU, Ram, rete, memorie di massa..) e necessita di un sistema operativo ospite che viene eseguito sul sistema operativo host per il suo funzionamento, mentre un container sfrutta il kernel e le librerie del sistema operativo sottostante per virtualizzare un ambiente di esecuzione delle applicazioni, condividendo le risorse con il resto delle applicazioni/container. La tecnologia che maggiormente utilizzata in ambito di container è Docker.
+
+
+
