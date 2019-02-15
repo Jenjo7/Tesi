@@ -1,1 +1,20 @@
 Perchè i software container
+
+I motivi che portano a preferire lo sviluppo di un sistema software con container, sono molteplici:
+-Sono più leggeri rispetto ad altre tecnologie (come le macchine virtuali).
+-Garantiscono l'isolamento dell'applicazione in esecuzione su di essi.
+-Rapido avvio del servizio
+-Sono portabili anche su sistemi differenti
+-Controllo di versione
+-le risorse dell'host sono condivise
+-Sviluppo semplificato?
+-Completamento dell’implementazione del concetto di PaaS?
+
+Ora si analizzeranno i vari punti sopracitai
+Leggerezza, un container può essere eseguito su una vasta gamma di dispositivi, anche se non dotati di grosse risorse (come ad es RaspberryPi), in quanto nel container è contenuto solo lo stretto necessario a far funzionare l'applicazione in esso contenuta, cosa che non avviene con le macchine virtuali, le quali necessitano di un sistema operativo ospite, e quindi di risorse hardware da virtualizzare. 
+
+Isolamento: ogni applicazione/servizio viene eseguita in un propria "sandbox", in maniera indipendente da altri container/applicazioni
+
+Rapido avvio: L'assenza di una macchina virtuale, implica già l'assenza del tempo di avvio dell' OS ospite della macchina stessa, mentre l'avvio di un container può essere effettuato mediante una riga di comando ed è praticamente istantaneo.
+
+Portabilità:
