@@ -4,3 +4,4 @@ FreeBSD https://www.freebsd.org/doc/it_IT.ISO8859-15/books/handbook/jails.html
 Perche https://www.criticalcase.com/it/blog/i-vantaggi-dei-container.html
 Confronto fra container https://www.ionos.it/digitalguide/server/know-how/una-panoramica-delle-alternative-a-docker/
 CosaSonoIContainer https://www.fastweb.it/grandi-aziende/news/articolo/cloud-container-cosa-sono-e-come-funzionano/
+CosaSonoIContainer http://www.mokabyte.it/2015/11/containersoperations-1/
