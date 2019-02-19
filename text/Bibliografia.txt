@@ -9,3 +9,4 @@ Vantaggi dei container https://www.kiratech.it/blog/i-5-benefici-dei-docker-cont
 Sicurezza dei container https://www.ictsecuritymagazine.com/articoli/sicurezza-nellera-dei-container/
 Cos'è Docker https://www.redhat.com/it/topics/containers/what-is-docker
 Docker https://aws.amazon.com/it/docker/
+Introduzione a Docker https://www.coretech.it/it/service/knowledge_base/Programmazione/Docker/Introduzione-a-Docker.php
