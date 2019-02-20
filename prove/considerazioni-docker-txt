@@ -1,0 +1,8 @@
+Dockerizzare il sito
+
+Il file docker-compose.yml trovato sul web si è rivelato utile al mio caso di studio. Una volta eseguito il comando compose, l'applicativo offre un servizio full stack (smilmente a tool visti nel percorso di studi come xammp) in cui ogni microservizio è incapsulato in un container, ed ognuno di essi è indipendente dall'altro. Tuttavia differisce da progetti visti su github e dockerhub per la mancanza di package e relativi file per il funzionamento del servizio.
+
+Considerazioni
+
+Una volta eseguita la compose, il servizio completo impiega fino a qualche minuto per avviarsi, ma poi funziona come un servizio di server web.
+Se si mette in pausa il container con il database, il servizio phpmyadmin non smette di funzionare, ma se prova a contattare il container e dopo del tempo (60-120 sec).

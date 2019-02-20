@@ -1,0 +1,67 @@
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  container_name: nginx-proxy
+  ports:
+    - 80:80
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+  restart: always
+ 
+wordpress:
+  image: wordpress
+  container_name: wordpress
+  links:
+    - db:mysql
+  ports:
+    - 8001:80
+  restart: always
+  volumes:
+    - ~/wordpress/:/var/www/html/
+  environment:
+    WORDPRESS_DB_USER: utente
+    WORDPRESS_DB_PASSWORD: password
+    WORDPRESS_DB_NAME: database
+    VIRTUAL_HOST: www.brisma.it,brisma.it
+ 
+db:
+  image: mariadb
+  container_name: db
+  restart: always
+  volumes:
+    - ~/mariadb/:/var/lib/mysql/
+  environment:
+    MYSQL_ROOT_PASSWORD: password
+    MYSQL_USER: utente
+    MYSQL_PASSWORD: password
+    MYSQL_DATABASE: database
+ 
+phpmyadmin:
+  image: phpmyadmin/phpmyadmin
+  container_name: phpmyadmin
+  links:
+    - db:db
+  restart: always
+  ports:
+    - 8002:80
+  environment:
+    VIRTUAL_HOST: phpmyadmin.brisma.it
+ 
+jenkins:
+  image: jenkins:alpine
+  container_name: jenkins
+  restart: always
+  ports:
+    - 8003:8080
+    - 50000:50000
+  volumes:
+    - ~/jenkins/:/var/jenkins_home
+  environment:
+    VIRTUAL_HOST: jenkins.brisma.it
+    VIRTUAL_PORT: 8080
+ 
+watchtower:
+  image: centurylink/watchtower
+  container_name: watchtower
+  restart: always
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
