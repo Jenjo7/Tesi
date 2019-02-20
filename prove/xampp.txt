@@ -1,1 +1,9 @@
 Xampp
+
+Una volta pullata questa immagine mi sarei aspettato di avere lo stesso servizio che offre il software non containerizzato xampp, e così sembra, e che il servizio venisse separato in microservizi ognuno incapsulato nel relativo container, ma così non è stato.
+Il servizio offerto è incaplusato in un'unica immagine (quindi un unico container a runtime) che ha come base una distrubuzione di debian (jessie), in cui viene successivamente installato xammp, ed eseguite le relative configurazioni.
+
+
+Considerazioni
+ 
+Utile strategia per evitare la proliferazione di container, e la conseguente gestione di questi, ma non copre il mio caso di studio.
