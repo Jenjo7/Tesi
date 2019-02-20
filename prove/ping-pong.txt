@@ -1,0 +1,10 @@
+ping-pong
+
+Questa immagine è utile per comprendere il funzionamento basilare delle porte con container Docker.
+
+Considerazioni
+
+Quando il container è in esecuzione apre una comunicazione con un porta (7777:80) e il software rimane in ascolto. Quando in quella porta verrà inviata la stringa "ping" il server risponderà con "pong", altrimenti restituirà il codice sorgente di una pagine HTML.
+Se il container passa allo stato di "pause" la porta rimane aperta, e è possibile inviare messaggi, ma il server non risponde.
+Tornando allo stato di "running" il server torna a rispondere alle richieste (rispondere pong alla ricezione di ping), e se durante lo stato di "pause" aveva ricevuto delle richieste, non appena il container torna attivo risponde alla precendenti richieste.
+In stato di stop il server è irraggiungibile. 
