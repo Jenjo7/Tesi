@@ -1,0 +1,3 @@
+svantaggi
+
+A febbraio 2019 è stato rilevato un bug nella libreria open source runc che permette ad un attaccante di 
