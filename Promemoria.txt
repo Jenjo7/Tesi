@@ -4,3 +4,9 @@ CloudComputing
 GoogleCloud
 LCX
 swarm
+eseguire jar in un container
+Runc
+moby
+kubernet
+https://www.youtube.com/watch?v=zdSODs3Qfug
+kubVSdock https://www.kiratech.it/blog/kubernetes-vs-docker-tutto-sui-due-pi%C3%B9-diffusi-tool-per-la-containerizzazione

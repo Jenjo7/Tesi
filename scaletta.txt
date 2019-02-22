@@ -10,6 +10,7 @@ Capitolo 2 Docker.
 	 2.1 Cos’è Docker
 	 2.2 Diffusione dei container con Docker
 	 2.3 Esempi apllicativi
+	 2.4 Svantaggi e vulnerabiltà	
 
 Capitolo 3
 
