@@ -1,3 +1,21 @@
 Docker
 
-Docker è una delle piattaforme software container più utlizzate e diffuse nell'ambito della virtualizzazione a livello OS. Il progetto Docker, nato nella azienda di dotCloud, fu pubblicato come progetto open source a marzo 2013 
+Docker è una delle piattaforme software container più utlizzate e diffuse nell'ambito della virtualizzazione a livello OS. Il progetto Docker, nato nella azienda di dotCloud, fu pubblicato come progetto open source a marzo 2013.
+
+Come funziona Docker
+Scopo di questa tecnologia è, come già ribadito più volto, contenere ed eseguire applicazioni in container. l'applicazione da eseguire parte da un'immagine rappresentata da un file chiamato Dockerfile. Nel Dockerfile sono descritte le funzionalità che l'applicazione containerizzata avrà una volta in esecuzione, nello specifico si tratta di utlizzare una sequenza di comandi come i seguenti:
+
+FROM <image>:<tag-version> : si specifica la base di partenza dell'imamgine che si sta creando e la versione che si desidera utilizzare. Tuttavia c'è modo di creare immagini di base facendo a meno dell'utilizzo di questo comando.
+
+ENTRYPOINT ["cmd", "parameter"]: è il primo comando che viene eseguito quando l'applicazione sarà eseguita sul container.
+
+RUN <command> : esegue un comando del kernel linux, utile per esempio ad installare e risolvere dipendenze una volta che l'immagine base è stata scaricata.
+
+COPY <source> <detination> copia un file dal filesystem host, al filesystem del container.
+
+
+
+
+
+
+
