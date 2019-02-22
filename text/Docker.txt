@@ -13,6 +13,11 @@ RUN <command> : esegue un comando del kernel linux, utile per esempio ad install
 
 COPY <source> <detination> copia un file dal filesystem host, al filesystem del container.
 
+EXPOSE <port> [<port>/<protocol>...] : permette al container di rimanere in ascolto nella <port> porta tramite protocollo /protocol
+
+Una volta scritto il Dockerfile si lancia il comando docker build nella directory ove il Dockerfile è locato, e di seguito verrà mostrato nel terminale la compilazione dell'immagine comando per comando, al termine del quale l'imamgine è creata. Ora che l'immagine è buildata, la si può eseguire in un container con il comando docker run imageid/imagename con possibilità di specificare tramite i flag altri parametri di esecuzione del container, per esempio la porta col quale deve essere possibile comunicare -p port, o i volumi da utilizzare -v path. Ora che il container è in esecuzione lo è anche la nostra applicazione/servizio. da linea di comando è poi possibile interagire con lo stato del container tramite i comandi stop, start, restart, pause, unpause.
+Ora che sono stati visionati i concetti di immagine e container, possiamo fare qualche considerazione: l'immagine rappresenta il servizio in maniera statica, uno snapshot della applicazione, mentre il container è qualcosa in esecuzione, qualcosa di dinamico costruito a partire dall'immagine. Una stessa immagine si può mandare in esecuzione su più container, come fosse un stampo per container, meccanismo che ricorda l' instazazione di una classe nella nella programmazione ad oggetti.
+
 
 
 
