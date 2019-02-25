@@ -1,4 +1,5 @@
-Perchè i software container
+﻿Perchè i software container
+
 
 I motivi che portano a preferire lo sviluppo di un sistema software con container, sono molteplici:
 -Sono più leggeri rispetto ad altre tecnologie (come le macchine virtuali).
