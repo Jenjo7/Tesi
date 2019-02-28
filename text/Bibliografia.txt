@@ -10,3 +10,4 @@ Sicurezza dei container https://www.ictsecuritymagazine.com/articoli/sicurezza-n
 Cos'è Docker https://www.redhat.com/it/topics/containers/what-is-docker
 Docker https://aws.amazon.com/it/docker/
 Introduzione a Docker https://www.coretech.it/it/service/knowledge_base/Programmazione/Docker/Introduzione-a-Docker.php
+StoriaContainer https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016
