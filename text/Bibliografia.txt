@@ -1,4 +1,4 @@
-StoriaDeiContainer https://www.internetpost.it/container-linux-storia-tecnologia/
+﻿StoriaDeiContainer https://www.internetpost.it/container-linux-storia-tecnologia/
 Virtualizzazione https://it.wikiversity.org/wiki/Tecnologie_di_virtualizzazione#Livello_hardware_vs_Livello_OS
 FreeBSD https://www.freebsd.org/doc/it_IT.ISO8859-15/books/handbook/jails.html
 Perche https://www.criticalcase.com/it/blog/i-vantaggi-dei-container.html
@@ -13,3 +13,5 @@ Introduzione a Docker https://www.coretech.it/it/service/knowledge_base/Programm
 StoriaContainer https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016
 Confronto container https://www.ionos.it/digitalguide/server/know-how/caas-i-migliori-servizi-contenitore-a-confronto/
 Futuro dei container https://www.01net.it/container-microservizi-sviluppo/
+confronto_container https://www.ionos.it/digitalguide/server/know-how/una-panoramica-delle-alternative-a-docker/
+confronto_container https://www.01net.it/container-lxc-docker/
