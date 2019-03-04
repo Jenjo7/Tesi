@@ -15,3 +15,4 @@ Confronto container https://www.ionos.it/digitalguide/server/know-how/caas-i-mig
 Futuro dei container https://www.01net.it/container-microservizi-sviluppo/
 confronto_container https://www.ionos.it/digitalguide/server/know-how/una-panoramica-delle-alternative-a-docker/
 confronto_container https://www.01net.it/container-lxc-docker/
+OCI http://www.ictbusiness.it/cont/news/i-container-sono-standard-con-la-prima-release-dell-oci/39810/1.html#.XHzvKRgo_Ag
