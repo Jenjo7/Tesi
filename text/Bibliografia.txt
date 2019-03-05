@@ -17,3 +17,6 @@ confronto_container https://www.ionos.it/digitalguide/server/know-how/una-panora
 confronto_container https://www.01net.it/container-lxc-docker/
 OCI http://www.ictbusiness.it/cont/news/i-container-sono-standard-con-la-prima-release-dell-oci/39810/1.html#.XHzvKRgo_Ag
 Swarm https://www.ionos.it/digitalguide/server/know-how/orchestrazione-di-docker-con-swarm-e-compose/
+stateless https://italiancoders.it/introduzione-a-rest/
+architettura docker http://code.i-harness.com/it/docs/docker~17/engine/docker-overview/index
+microservice container https://www.01net.it/microservizi-container/
