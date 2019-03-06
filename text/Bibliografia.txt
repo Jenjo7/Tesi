@@ -20,3 +20,4 @@ Swarm https://www.ionos.it/digitalguide/server/know-how/orchestrazione-di-docker
 stateless https://italiancoders.it/introduzione-a-rest/
 architettura docker http://code.i-harness.com/it/docs/docker~17/engine/docker-overview/index
 microservice container https://www.01net.it/microservizi-container/
+Kubernetes https://www.cwi.it/applicazioni-enterprise/sviluppo-app/kubernetes-111490
